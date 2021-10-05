@@ -7,6 +7,9 @@ spec:
   - host: www.app.com
     http:
       paths:
+      pathType: Prefix
       - backend:
-          serviceName: v1-svc
-          servicePort: 8080
+          service:
+            name: v1-svc
+            port: 
+              number: 8080
