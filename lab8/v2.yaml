@@ -12,7 +12,7 @@ spec:
 apiVersion: v1
 kind: Service
 metadata:
-  name: v2-pod
+  name: v2-svc
 spec:
   selector:
     app: v2
